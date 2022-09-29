@@ -33,9 +33,18 @@ h1{
 .mybg-blue {
     background-color: var(--blue);
 }
+#sony1 {
+    height: 40px;
+    background-color: black;
+    text-align: right;
+}
 
+#sony1 img {
+    width: 80px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
 #jumbotron{
-    margin-top: 80px;
     background-image: url('../img/jumbo-bg.png');
     background-size:cover;
     background-position:center;
