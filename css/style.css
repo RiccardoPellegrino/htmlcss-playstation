@@ -33,25 +33,29 @@ body {
 
 #jumbotron{
     background-image: url('../img/jumbo-bg.png');
-    background-size: cover;
-    background-position: top center;
+    background-size:cover;
+    background-position:center;
     padding-top: 350px;
     padding-bottom: 50px;
 }
 .logo-jumbo {
     max-width: 70%;
 }
+.logo-hero2{
+    max-width: 40%;
+}
 #hero2{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
-    background-position: top center;
+    background-position:center;
     padding-top: 350px;
     padding-bottom: 50px;
 }
 #esplora{
     background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
-    background-size: cover;
-    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:right;
     padding-top: 350px;
     padding-bottom: 50px;
 }
