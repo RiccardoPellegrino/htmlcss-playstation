@@ -10,6 +10,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+h1{
+    font-size: 40px;
+}
 
 .sony {
     color: white;
@@ -39,16 +42,16 @@ body {
     padding-bottom: 50px;
 }
 .logo-jumbo {
-    max-width: 70%;
+    max-width: 60%;
 }
 .logo-hero2{
-    max-width: 40%;
+    max-width: 60%;
 }
 #hero2{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
     background-position:center;
-    padding-top: 350px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 #esplora{

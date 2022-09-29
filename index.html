@@ -20,20 +20,117 @@
 <body>
 
     <header>
-        <div class="bg-black">
-            <div class="container-fluid d-flex justify-content-end "><img class="logo-sony col-1 p-2"
-                    src="./img/sony_logo.svg" alt="sony logo"></div>
-        </div>
+        
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a href="#"><img src="./img/play_logo.svg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <nav>
-            nav
+                <div class="collapse navbar-collapse">
+
+                    <ul class="navbar-nav d-flex flex-grow-1">
+                        <li class="nav-item dropdown pe-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Giochi
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown pe-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Hardware
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown pe-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servizi
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown pe-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Novit&aacute;
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown pe-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Fai acquisti
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Supporto
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="d-flex navbar-nav align-items-center">
+                        <li class="nav-item dropdown pe-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                My PlayStation
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item pe-4">
+                            <button class="btn btn-dark rounded-5">Accedi</button>
+                        </li>
+                        <li class="nav-item">
+                            <form class="d-flex" role="search">
+                                <a href=""><img class="w-50" src="./img/lens.svg" alt=""></a>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
 
         <section class="container-fluid" id="jumbotron">
-            <div class="row jumbo-article">
+            <div class="row">
                 <div class="col-12 col-lg-5 text-white">
                     <img class="logo-jumbo" src="./img/returnal-hero-banner-logo.png" alt="">
                     <h1 class="py-4">Rompi il cerchio</h1>
@@ -51,12 +148,11 @@
         </section>
 
         <section id="hero2" class="container-fluid">
-            <div class="row jumbo-article">
+            <div class="row ">
                 <div class="col-12 col-lg-5 text-white">
                     <img class="logo-hero2" src="./img/it-takes-two-logo.png" alt="">
                     <h1 class="py-4">Un'avventura cooperativa selvaggia ti attende</h1>
-                    <p class="pb-2">Trova un amico e partite insieme per l'avventura più; folle delle vostre vite
-                        in
+                    <p class="pb-2">Trova un amico e partite insieme per l'avventura più; folle delle vostre vite in
                         It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.</p>
                     <a class="rounded-pill btn btn-red text-white" href="#">Acquista ora</a>
                 </div>
