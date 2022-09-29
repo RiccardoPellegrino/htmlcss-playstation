@@ -48,6 +48,13 @@ body {
     padding-top: 350px;
     padding-bottom: 50px;
 }
+#esplora{
+    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
+    background-size: cover;
+    background-position: top center;
+    padding-top: 350px;
+    padding-bottom: 50px;
+}
 .btn-red {
     background-color: var(--red);
 }
