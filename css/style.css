@@ -35,6 +35,7 @@ h1{
 }
 
 #jumbotron{
+    margin-top: 80px;
     background-image: url('../img/jumbo-bg.png');
     background-size:cover;
     background-position:center;
