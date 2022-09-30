@@ -149,5 +149,8 @@ img.sie-logo {
     cursor: pointer;
 }
 .bordo:hover{
-    border-bottom: 1px solid #0072CE;
+    border-bottom: 2px solid #0072CE;
+}
+.bordo{
+    border-bottom: 2px solid transparent;
 }
