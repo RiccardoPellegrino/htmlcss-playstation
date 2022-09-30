@@ -83,6 +83,7 @@ h1 {
     width: 100%;
 }
 #play5 img{
+    position: relative;
     width: 100%;
 }
 .devices img{
@@ -146,4 +147,7 @@ img.sie-logo {
 }
 .curs-pointer {
     cursor: pointer;
+}
+.bordo:hover{
+    border-bottom: 1px solid #0072CE;
 }
