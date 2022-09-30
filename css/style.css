@@ -42,7 +42,7 @@ h1{
 #sony1 img {
     width: 80px;
     padding-top: 10px;
-     
+
 }
 #jumbotron{
     background-image: url('../img/jumbo-bg.png');
@@ -74,4 +74,18 @@ h1{
 }
 .btn-red {
     background-color: var(--red);
+}
+#esplora img{
+    width: 100%;
+}
+#social img{
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+    #esplora{
+        background-image: none;
+    }
+    #esplora img{
+        width: 75%;
+    }
 }
