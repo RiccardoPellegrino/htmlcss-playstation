@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif, Arial, Helvetica; 
 }
 
 h1 {
@@ -153,4 +153,10 @@ img.sie-logo {
 }
 .bordo{
     border-bottom: 2px solid transparent;
+}
+.bordo1{
+    border: 3px solid transparent;
+}
+.bordo1:hover{
+    border: 3px solid #0072CE;
 }
