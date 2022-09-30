@@ -31,6 +31,10 @@ h1 {
     background-color: var(--blue);
 }
 
+#navbarNavDropdown a{
+    color: black;
+}
+
 #sony1 {
     height: 40px;
     background-color: black;
@@ -67,22 +71,8 @@ h1 {
     padding-bottom: 50px;
 }
 
-#esplora {
-    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    padding-top: 350px;
-    padding-bottom: 50px;
-}
-
 .btn-red {
     background-color: var(--red);
-}
-
-.btn-red:hover {
-    border-color: red;
-    box-shadow: 0 0 0 2px red;
 }
 
 #esplora img {
@@ -101,30 +91,10 @@ h1 {
 #sconti img{
     width: 100%;
 }
-
-@media screen and (max-width: 767px) {
-    #esplora {
-        background-image: none;
-    }
-
-    #esplora img {
-        width: 50%;
-    }
-}
-@media screen and (min-width: 1200px) {
-    #esplora img {
-        width: 50%;
-    }
+#play-now img{
+    width: 100%;
 }
 
-.card-item {
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-.card-item:hover {
-    transform: translate(0, -5%);
-}
 .first-devices p {
     text-align: center;
 }
@@ -132,6 +102,7 @@ sup {
     font-size: 8px;
 }
 /* footer */
+
 #menu-bottom {
     background-color: #00439C;
 }
@@ -149,4 +120,30 @@ img.nazione {
 
 img.sie-logo {
     width: 150px;
+}
+/* hover  */
+.btn-red:hover {
+    border-color: red;
+    box-shadow: 0 0 0 2px red;
+}
+.btn-dark:hover {
+    border-color: var(--black);
+    box-shadow: 0 0 0 2px black;
+    background-color: transparent;
+}
+.btn-primary:hover {
+    box-shadow: 0 0 0 2px #0072CE;
+}
+.card-item:hover {
+    transform: translate(0, -5%);
+}
+.card-item {
+    transition: 0.5s;
+    cursor: pointer;
+}
+#navbarNavDropdown a:hover{
+    color: var(--blue);
+}
+.curs-pointer {
+    cursor: pointer;
 }
