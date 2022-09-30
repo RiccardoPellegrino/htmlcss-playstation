@@ -10,7 +10,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
 
@@ -33,6 +34,7 @@ h1{
 .mybg-blue {
     background-color: var(--blue);
 }
+
 #sony1 {
     height: 40px;
     background-color: black;
@@ -44,48 +46,81 @@ h1{
     padding-top: 10px;
 
 }
-#jumbotron{
+
+#jumbotron {
     background-image: url('../img/jumbo-bg.png');
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
     padding-top: 350px;
     padding-bottom: 50px;
 }
+
 .logo-jumbo {
     max-width: 60%;
 }
-.logo-hero2{
+
+.logo-hero2 {
     max-width: 60%;
 }
-#hero2{
+
+#hero2 {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
-    background-position:center;
+    background-position: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-#esplora{
+
+#esplora {
     background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position:right;
+    background-position: right;
     padding-top: 350px;
     padding-bottom: 50px;
 }
+
 .btn-red {
     background-color: var(--red);
 }
-#esplora img{
+
+.btn-red:hover {
+    border-color: red;
+    box-shadow: 0 0 0 2px red;
+}
+
+#esplora img {
     width: 100%;
 }
-#social img{
+
+#social img {
     width: 100%;
 }
-@media screen and (max-width: 768px){
-    #esplora{
+#play5 img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #esplora {
         background-image: none;
     }
-    #esplora img{
+
+    #esplora img {
         width: 75%;
     }
+}
+
+.card-item {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card-item:hover {
+    transform: translate(0, -5%);
+}
+.first-devices p {
+    text-align: center;
+}
+sup {
+    font-size: 8px;
 }
